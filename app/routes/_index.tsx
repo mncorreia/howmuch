@@ -16,7 +16,7 @@ export default function Index() {
       <VStack spacing={8} py={12}>
         <Heading as="h1" textAlign="left" size="2xl" width="100%">Quanto custa?</Heading>
         <Location />
-        <HowMuchForm toExchangeRate={5.48} fromExchangeRate={0.1822} fee={0.065} />
+        <HowMuchForm toExchangeRate={5.63} fromExchangeRate={0.1822} fee={0.065} />
       </VStack>
     </Container>
   );
